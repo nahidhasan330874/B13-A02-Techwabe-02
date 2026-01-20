@@ -7,7 +7,7 @@
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 
-    <title> A02 Techwabe</title>
+    <title> A02 Techwave</title>
     <!-- css 3 -->
     <link rel="stylesheet" href="/styles/style.css">
 
@@ -27,14 +27,18 @@
   <!-- Navbar -->
   <header> 
               <nav class="flex justify-around p-8 items-center">
-                  <h2 class="font-bold  text-4xl">Tech<span class=" bg-clip-text">Wave</span></h2>
+                  <h2 class="font-bold  text-5xl">Tech<span class="  bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8]  
+               bg-clip-text text-transparent animate-pulse ">Wave</span></h2>
                     <ul class="flex gap-15 ">
                       <li class=" hidden sm:block">About</li>
                       <li class=" hidden sm:block">Episodes</li>
                       <li class=" hidden sm:block">Host</li>
                     </ul>
                      <img class=" block sm:hidden" src="images/icons/hamburger-menu.png" alt=""> 
-                    <button class="  px-4 py-2 text-white text-xl font-semibold  rounded-full bg-gradient-to-tr  from-yellow-400 via-pink-500 to-purple-600 hover:from-pink-500 hover:to-blue-500 hover:shadow-2xl hover:scale-110 transition-all duration-300  hidden sm:block ">Subscribe<i class="fa-solid fa-arrow-right"></i></button>
+                    <button class="  px-4 py-2 text-white text-xl font-semibold  rounded-full bg-gradient-to-tr  from-[#F7E93F] via-[#FB09B4]  to-[#9100F8] 
+                    hover:from-[#9100F8]
+                    hover:via-[#68a88a] hover:to-[#FB09B4]
+                    hover:text-black hover:shadow-2xl hover:scale-110 transition-all duration-300  hidden sm:block ">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
               </nav>               
   </header>
 
@@ -46,14 +50,14 @@
            style=" background-image: url(./images/hero-bg.png);">
               
            <div class=" absolute top-6 
-           \right-[-30px] bg-[#00FF88] text-black text-sm font-semibold px-5 py-2 rounded-full shadow-lg shadow-[#53a17c] z-10 ml-[270px] mt-[100px] ">
+           \right-[-30px] bg-[#00FF88] text-black text-sm font-semibold px-5 py-2 rounded-full shadow-lg shadow-[#53a17c] z-10 ml-[270px] mt-[100px]   animate-bounce ">
              <button class="">NEW</button>
             </div>
 
              <div class= " flex justify-center mt-[100px]  
              w-[370px] h-[370px]  bg-cover bg-center bg-no-repeat relative sm:w-[400px] sm:h-[400px] md:w-[420px] md:h-[420px] lg:w-[450px] lg:h-[450px]"
              style="background-image: url(./images/hero-circle.png);">
-               <img class="mt-[100px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-50 "
+               <img class="mt-[100px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-50"
                src="images/icons/microphone.png" alt="">
               </div>
              <div class="text-center mt-10">
@@ -68,25 +72,25 @@
                  hover:shadow-2xl hover:scale-110 transition-all duration-300 "> <img class="p-[6px]" src="images/icons/message.png" alt="">Subscribe</button></div>
             </div>
           </div>
-  </section>
-
-  <!-- About -->
-  <section> 
+</section>
+<!-- about  -->
+<section>
            <div class="px-[5px] md:px-[120px] lg:px-[200px]">
-              <div class="flex items-center flex-col gap-3 mt-8">
-                    <h3 class="font-bold text-5xl ">About the Podcast</h3>
-                    <p class="leading-5 text-[gray] text-center">
-                      TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br>
-                      We break down complex topics into digestible insights, explore productivity strategies that actually work,<br>
-                     and share stories of personal growth from industry leaders.
+              <div class="flex items-center text-center flex-col gap-3 mt-12">
+                    <h3 class="font-bold text-5xl items-center ">About the Podcast</h3>
+                  <div class="leading-5 text-[gray] text-center flex flex-col items-center mt-5">
+                      <p>
+                      TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.</p>
+                     <p>We break down complex topics into digestible   insights, explore productivity strategies that actually  work,</p>
+                    <p> and share stories of personal growth from industry leaders.</p>
                     <br>
-                    <br>
-                    <br>
+                    <p>
                       Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
                     </p>
+                  </div>
               </div>
                  <div class="grid  grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 text-center
-                  mt-[80px] border-t border-[#2a2332] p-10 gap-8">
+                  mt-[80px] border-t border-[#2a2332] p-10 gap-8 animate-pulse">
         
                  <div>
                   <h2 class="text-[48px] font-black leading-[58px] text-[#00FF88]">150K+</h2>
@@ -238,9 +242,38 @@
   </section>
 
   <!-- Footer -->
-  <footer></footer>
-
-</body>
+  <footer class="mt-10">
+          <div class="w-[100%] h-[100%] bg-cover bg-center mb:bg-cover flex flex-col justify-center items-center p-[20px] md:p-[120px] gap-10"
+          style="background-image: url(./images/footer-bg.png);">
+              <div>
+                      <h2 class="font-bold  text-7xl">Tech<span class="  bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8]  
+                      bg-clip-text text-transparent ">Wave</span></h2>
+              </div>
+              <div class="grid grid-cols-2 md:grid-cols-4 gap-0 md:gap-5 items-center text-center md:ml-12 ">
+                   <div class="flex  items-center">
+                      <img class="p-3" src="images/icons/spotify.png" alt="">
+                      <p class="text-[16px] font-semibold text-[gray]">Spotify</p>
+                   </div> 
+                   <div class="flex  items-center">
+                      <img class="p-3" src="images/icons/apple-podcast.png" alt="">
+                      <p class="text-[16px] font-semibold text-[gray]">Apple Podcasts</p>
+                   </div> 
+                   <div class="flex  items-center">
+                      <img class="p-3" src="images/icons/youtube-podcast.png" alt="">
+                      <p class="text-[16px] font-semibold text-[gray]"> YouTube</p>
+                   </div> 
+                   <div class="flex  items-center">
+                      <img class="p-3" src="images/icons/twitter.png" alt="">
+                      <p class="text-[16px] font-semibold leading-[24px] text-[gray] "> Twitter</p>
+                   </div> 
+                    
+              </div>
+              <div class="text-base leading-[24px] text-[gray] ">
+                <p>© 2026 TechWave Podcast. All rights reserved.</p>
+              </div>
+              
+          </div>
+  </footer>
 
 </body>
 </html>
